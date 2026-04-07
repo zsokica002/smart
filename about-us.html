@@ -16,6 +16,21 @@
         natus illo autem fugit pariatur amet facilis laudantium animi. Commodi corrupti porro exercitationem culpa.
     </p>
 
+    <input type="button" value="Say hi to the devs!" onclick="sayHi();">
+    <p id="successMessage"></p>
+
+    <script>
+
+        function sayHi() {
+            var successMessageEl = document.getElementById("successMessage");
+
+            console.log("Hi devs!")
+
+            successMessageEl.innerHTML = "Successfully greeted devs. :)";
+        }
+
+    </script>
+
 </body>
 
 </html>
