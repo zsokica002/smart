@@ -11,10 +11,15 @@
 
     <h1>About Us</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, esse numquam est ipsam quasi fuga assumenda,
-        natus illo autem fugit pariatur amet facilis laudantium animi. Commodi corrupti porro exercitationem culpa.
-    </p>
+    <blockquote>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, esse numquam est ipsam quasi fuga
+            assumenda, natus illo autem fugit pariatur amet facilis laudantium animi. Commodi corrupti porro
+            exercitationem culpa.
+        </p>
+        <footer>- <cite>Max Ehrmann, Desiderata: A Poem for a Way of Life</cite></footer>
+    </blockquote>
+
 
     <input type="button" value="Say hi to the devs!" onclick="sayHi();">
     <p id="successMessage"></p>
@@ -26,7 +31,7 @@
 
             console.log("Hi devs!")
 
-            successMessageEl.innerHTML = "Successfully greeted devs. :)";
+            successMessageEl = "Successfully greeted devs. ";
         }
 
     </script>
